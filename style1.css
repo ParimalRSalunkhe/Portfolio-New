@@ -1,4 +1,4 @@
-/* .newnav ul li{
+.newnav ul li{
 
     display: flex;
     display: inline-block;
@@ -39,7 +39,7 @@
         background-image: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, #9b59b6, #f5af19);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-      } */
+      }
       
       
       
