@@ -1,0 +1,31 @@
+
+#id1{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.home-text p{
+    
+        text-align:justify;
+        text-justify:inter-word;
+    
+}
+
+.card:hover{
+    background-color: blue!important;
+}
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.5rem;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  
