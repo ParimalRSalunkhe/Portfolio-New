@@ -11,46 +11,37 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
     <title>Parimal Salunkhe Portfolio</title>
     <link rel="stylesheet" href="style1.css">
 </head>
 
 <body class="bg-light">
-    <!-- navbar start  -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-sm ">
-        <div class="container-fluid">
-            <a class="navbar-brand text-danger fw-bold fs-4" href="#">Hey 🖐️,I'm Parimal</a>
-
-<!--         <div class="newnav">
-            <ul>
-                <li><a class="dropdown-item1" href="#Home">Home</a></li>
-                <li><a class="dropdown-item1" href="#About">About</a></li>
-                <li><a class="dropdown-item1" href="#Skills">Skills</a></li>
-                <li><a class="dropdown-item1" href="#Education">Education</a></li>
-                <li><a class="dropdown-item1" href="#Internships">Internships</a></li>
-                <li><a class="dropdown-item1" href="#Contact">Contact</a></li>
-
-            </ul>
-        </div> -->
-            <div class="dropdown">
-                <button class="btn btn-secondary btn-danger px-2 dropdown-toggle" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-                    <li><a class="dropdown-item" href="#Home">Home</a></li>
-                    <li><a class="dropdown-item" href="#About">About</a></li>
-                    <li><a class="dropdown-item" href="#Skills">Skills</a></li>
-                    <li><a class="dropdown-item" href="#Education">Education</a></li>
-                    <li><a class="dropdown-item" href="#Internships">Internships</a></li>
-                    <li><a class="dropdown-item" href="#Contact">Contact</a></li>
-
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger fw-bold fs-4" href="#">Hey 🖐️, I'm Parimal</a>
+                <div class="dropdown">
+                    <button class="btn btn-secondary btn-danger px-2 dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#Home">Home</a></li>
+                        <li><a class="dropdown-item" href="#About">About</a></li>
+                        <li><a class="dropdown-item" href="#Skills">Skills</a></li>
+                        <li><a class="dropdown-item" href="#Education">Education</a></li>
+                        <li><a class="dropdown-item" href="#Internships">Internships</a></li>
+                        <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-
-    </nav>
+        </nav>
+    
+        <!-- Bootstrap JS (for dropdown and other features) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- navbar end -->
     <!-- home section -->
@@ -134,19 +125,38 @@
                         </div>
                         <!-- <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div> -->
                     </div>
-                    <div class="social-links">
-                        <h5>Let's Connected...</h5>
-                        <a href="https://www.linkedin.com/in/parimal-salunkhe-6489a3217" class="text-dark me-2"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com/ParimalRSalunkhe" class="text-dark me-2"><i
-                                class="fab fa-github"></i></a>
-                        <a href="https://instagram.com/parimal_patil12?igshid=ZDdkNTZiNTM=" class="text-dark me-2"><i
-                                class="fab fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/parimal.sadunkhe?mibextid=ZbWKwL" class="text-dark me-2"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a href="./Parimal Resume.pdf" download='image' class="download-btn">CV Download
-                        <i class="fa fa-download"></i></a>
-                    </div>
+                    <div class="social-links text-center mt-4">
+                        <h5 style="color: #333; font-weight: bold;">Let's Connect...</h5>
+                        <div class="d-flex justify-content-center align-items-center gap-3 mt-3">
+                            <a href="https://www.linkedin.com/in/parimal-salunkhe-6489a3217" target="_blank"
+                                style="background-color: #0077b5; color: white; width: 40px; height: 40px; border-radius: 50%; 
+                                       display: flex; justify-content: center; align-items: center; font-size: 18px; text-decoration: none;">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/ParimalRSalunkhe" target="_blank"
+                                style="background-color: #333; color: white; width: 40px; height: 40px; border-radius: 50%; 
+                                       display: flex; justify-content: center; align-items: center; font-size: 18px; text-decoration: none;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://instagram.com/parimal_patil12?igshid=ZDdkNTZiNTM=" target="_blank"
+                                style="background-color: #E4405F; color: white; width: 40px; height: 40px; border-radius: 50%; 
+                                       display: flex; justify-content: center; align-items: center; font-size: 18px; text-decoration: none;">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/parimal.sadunkhe?mibextid=ZbWKwL" target="_blank"
+                                style="background-color: #1877F2; color: white; width: 40px; height: 40px; border-radius: 50%; 
+                                       display: flex; justify-content: center; align-items: center; font-size: 18px; text-decoration: none;">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="mt-4">
+                            <a href="./Parimal Resume.pdf" download="Parimal_Resume" class="download-btn"
+                                style="background-color: #28a745; color: white; padding: 10px 20px; border-radius: 25px; 
+                                       text-decoration: none; font-size: 16px; font-weight: bold; display: inline-block;">
+                                <i class="fa fa-download"></i> Download CV
+                            </a>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -165,68 +175,63 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">HTML</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fab fa-html5 text-danger fa-2x"></i> HTML</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fab fa-css3-alt text-primary fa-2x"></i> CSS</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fab fa-js text-warning fa-2x"></i> JavaScript</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fas fa-code text-success fa-2x"></i> DSA</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">CSS</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;"
-                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="col-md-6">
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fab fa-java text-secondary fa-2x"></i> JAVA</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-secondary" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">Javascript</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fab fa-python text-info fa-2x"></i> Python</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">DSA</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fas fa-c text-dark fa-2x"></i> C Programming</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-dark" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">JAVA</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;"
-                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">Python</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;"
-                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">C Programming</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"
-                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item mb-4">
-                        <h3 class="fs-6">SQL</h3>
-                        <div class="progress " style="height: 5px;">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;"
-                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6"><i class="fas fa-database text-primary fa-2x"></i> SQL</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>         
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
         </div>
     </section>
 
@@ -304,11 +309,11 @@
                         <div class="position-relative ex-me mb-4">
                             <i class="far fa-dot-circle text-danger position-absolute"
                                 style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1"> Android Attendance System</h5>
+                            <h5 class="font-weight-bold mb-1"> Smart Attendance System</h5>
                             <p class="mb-2"><strong>Java,Advance Java</strong> | <small>June 2024</small></p>
-                            <p style="text-align:justify"> In this project, I developed a comprehensive Android Attendance System designed to streamline
+                            <p style="text-align:justify"> In this project, I developed a comprehensive Samart Attendance System designed to streamline
                                  and automate attendance tracking processes using Java, advanced Java, UI/UX design, Java
-                                 frameworks like JSP, Servlets, JDBC, Hibernate, and Spring Boot, and JDBC by using MYSQL.
+                                 frameworks like JSP, Servlets, JDBC, Hibernate, Spring Boot, Spring MVC, and database connection by using MYSQL.
                             </p>
                         </div>
                     </div>
@@ -331,37 +336,44 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-122 row text-center ">
-                <div class="col-md-6 col-lg-4 mb-4"  >
-                    <div class="service-item shadow-sm p-4 rounded bg-white"  >
+            <div class="row text-center mt-5">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item p-4 rounded bg-white shadow-lg" 
+                        style="transition: 0.3s; border-top: 4px solid #dc3545; background: linear-gradient(135deg, #fff, #f8f9fa);">
                         <div class="icon my-3 text-danger fs-2">
                             <i class="fas fa-code"></i>
                         </div>
-                        <h3 class="fs-5 py-2">Oasis infobyte</h3>
-                        <p class="muted">Completed the Internship in the Domain of Web Development with technologies
-                            like HTML,CSS,Bootstrap,Node.js,React.js and JavaScript</p>
+                        <h3 class="fs-5 py-2 text-uppercase" style="color: #333;">Oasis Infobyte</h3>
+                        <p class="text-muted" style="font-size: 0.9rem;">
+                            Completed an internship in Web Development using HTML, CSS, Bootstrap, Node.js, React.js, and JavaScript.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4"  >
-                    <div class="service-item shadow-sm p-4 rounded bg-white" >
-                        <div class="icon my-3 text-danger fs-2">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item p-4 rounded bg-white shadow-lg" 
+                        style="transition: 0.3s; border-top: 4px solid #007bff; background: linear-gradient(135deg, #fff, #f8f9fa);">
+                        <div class="icon my-3 text-primary fs-2">
                             <i class="fas fa-code"></i>
                         </div>
-                        <h3 class="fs-5 py-2" >TeachNook</h3>
-                        <p class="muted">Completed the Internship in the Domain of Web Development with technologies
-                            like HTML,CSS,Bootstrap,Node.js,React.js and JavaScript</p>
+                        <h3 class="fs-5 py-2 text-uppercase" style="color: #333;">TeachNook</h3>
+                        <p class="text-muted" style="font-size: 0.9rem;">
+                            Completed an internship in Web Development using HTML, CSS, Bootstrap, Node.js, React.js, and JavaScript.
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4"  >
-                    <div class="service-item shadow-sm p-4 rounded bg-white">
-                        <div class="icon my-3 text-danger fs-2">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item p-4 rounded bg-white shadow-lg" 
+                        style="transition: 0.3s; border-top: 4px solid #28a745; background: linear-gradient(135deg, #fff, #f8f9fa);">
+                        <div class="icon my-3 text-success fs-2">
                             <i class="fas fa-code"></i>
                         </div>
-                        <h3 class="fs-5 py-2">FAST FINDFIRM</h3>
-                        <p class="muted">Completed the Internship in the Domain of Web Development with technologies
-                            like React.js,Node.js and MongoDB</p>
+                        <h3 class="fs-5 py-2 text-uppercase" style="color: #333;">FAST FINDFIRM</h3>
+                        <p class="text-muted" style="font-size: 0.9rem;">
+                            Completed an internship in Web Development using React.js, Node.js, and MongoDB.
+                        </p>
                     </div>
                 </div>
+            </div>            
             </div>
         </div>
     </section>
